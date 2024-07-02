@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda en Línea de Nik</title>
     <link rel="icon" type="image/png" href="https://metroio.vtexassets.com/assets/vtex/assets-builder/metroio.store-theme/13.0.86/svg/logo-metro___19ecf64e9f98f0564f96d3856f640d6c.svg">
-    <link rel="stylesheet" href="../CSS/styles0.css">
+    <link rel="stylesheet" href="../CSS/styles1.css">
     <script src="../JS/script.js" defer></script>
-    <script src="../JS/busqueda.js" defer></script>
+    <script src="../JS/busqueda1.js" defer></script>
 </head>
 <body>
 <header>
     <div class="container header-container">
         <div class="logo">
-            <a href="index.php">
+            <a href="../public_html/index.php">
                 <img src="https://metroio.vtexassets.com/assets/vtex/assets-builder/metroio.store-theme/13.0.86/svg/logo-metro___19ecf64e9f98f0564f96d3856f640d6c.svg" alt="Logo de la tienda">
             </a>
         </div>

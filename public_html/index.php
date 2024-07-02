@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda en Línea de Nik</title>
     <link rel="icon" type="image/png" href="https://metroio.vtexassets.com/assets/vtex/assets-builder/metroio.store-theme/13.0.86/svg/logo-metro___19ecf64e9f98f0564f96d3856f640d6c.svg">
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/styles1.css">
     <link rel="stylesheet" href="../CSS/slider1.css">
     <script src="../JS/script.js" defer></script>
     <script src="../JS/busqueda1.js" defer></script>
@@ -13,21 +13,21 @@
 <body>
 <header>
     <div class="container header-container">
-        <div class="logo">
-            <img src="https://metroio.vtexassets.com/assets/vtex/assets-builder/metroio.store-theme/13.0.86/svg/logo-metro___19ecf64e9f98f0564f96d3856f640d6c.svg" alt="Logo de la tienda">
-        </div>
+            <a href="../public_html/index.php">
+                <img src="https://metroio.vtexassets.com/assets/vtex/assets-builder/metroio.store-theme/13.0.86/svg/logo-metro___19ecf64e9f98f0564f96d3856f640d6c.svg" alt="Logo de la tienda">
+            </a>
         <div class="categories">
             <button id="category-button">CATEGORIAS <div class="arrow"></div></button>
                 <ul id="category-list" class="category-list">
-                <li data-category="tecnologia"><a href="categoria_producto.php?categoria=tecnologia">Tecnologia</a></li>
-                <li data-category="bebidas"><a href="categoria_producto.php?categoria=bebidas">Bebidas</a></li>
-                <li data-category="frutas-verduras"><a href="categoria_producto.php?categoria=frutas-verduras">Frutas y Verduras</a></li>
-                <li data-category="cuidado-del-hogar"><a href="categoria_producto.php?categoria=cuidado-del-hogar">Cuidado del Hogar</a></li>
-                <li data-category="lacteos-huevos"><a href="categoria_producto.php?categoria=lacteos-huevos">Lacteos y Huevos</a></li>
-                <li data-category="panaderia"><a href="categoria_producto.php?categoria=panaderia">Panaderia</a></li>
-                <li data-category="despensa"><a href="categoria_producto.php?categoria=despensa">Despensa</a></li>
-                <li data-category="congelados"><a href="categoria_producto.php?categoria=congelados">Congelados</a></li>
-                <li data-category="carnes-chorizos"><a href="categoria_producto.php?categoria=carnes-chorizos">Carnes y Chorizos</a></li>
+                <li data-category="tecnologia"><a href="../PAGES/categoria_producto.php?categoria=tecnologia">Tecnologia</a></li>
+                <li data-category="bebidas"><a href="../PAGES/categoria_producto.php?categoria=bebidas">Bebidas</a></li>
+                <li data-category="frutas-verduras"><a href="../PAGES/categoria_producto.php?categoria=frutas-verduras">Frutas y Verduras</a></li>
+                <li data-category="cuidado-del-hogar"><a href="../PAGES/categoria_producto.php?categoria=cuidado-del-hogar">Cuidado del Hogar</a></li>
+                <li data-category="lacteos-huevos"><a href="../PAGES/categoria_producto.php?categoria=lacteos-huevos">Lacteos y Huevos</a></li>
+                <li data-category="panaderia"><a href="../PAGES/categoria_producto.php?categoria=panaderia">Panaderia</a></li>
+                <li data-category="despensa"><a href="../PAGES/categoria_producto.php?categoria=despensa">Despensa</a></li>
+                <li data-category="congelados"><a href="../PAGES/categoria_producto.php?categoria=congelados">Congelados</a></li>
+                <li data-category="carnes-chorizos"><a href="../PAGES/categoria_producto.php?categoria=carnes-chorizos">Carnes y Chorizos</a></li>
             </ul>
         </div>
         <div class="search-bar">
